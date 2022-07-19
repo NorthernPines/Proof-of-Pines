@@ -2,13 +2,18 @@
     --bio: rgb(7, 85, 7);
     --heading: rgb(15, 165, 15);
     --backgr: #69d4f5;
-    --hbackgr: rgb(119, 139, 153);
+    --hbackgr: rgb(45, 53, 59);
 }
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*:any-link {
+    text-decoration: none;
 }
 
 body {
@@ -19,11 +24,14 @@ header nav ul {
     margin-right:20px;
 }
 
-header nav ul li {
-    color: (--heading);
+header nav ul li{
     display: inline-block;
     margin-left: 20px;
     font-size: 20px;
+}
+
+header nav ul li a{
+    color: var(--heading);
 }
 
 header{
@@ -38,12 +46,19 @@ header nav {
 header h1 {
     display: inline-block;
     background-color: var(--heading);
+    color: var(--hbackgr);
     padding:4px;
     padding-left: 40px;
 }
 
+.section{
+    display: inline-flex;
+    padding: 10px;
+}
+
 .section > *{
-    display: inline;
+    display: inline-block;
+    justify-content: center;
 }
 
 .section > * > *{
@@ -55,17 +70,25 @@ header h1 {
     color:rgb(7, 85, 7);
     font-size:40px;
     margin: 20px;
+    padding: 10px;
+    text-align: right;
+    font-weight: 500;
+    flex:0 0 300px;
+}
+
+#bio {
+    font-size: 18px;
+    color: var(--bio);
 }
 
 img {
     width: 300px;
     height: 130px;
-    overflow: hidden;
+    border: 3px solid var(--heading);
 }
 
-
 #contact-me ul{
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
     margin: 0 50px;
     align-items: center;
