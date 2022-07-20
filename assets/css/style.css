@@ -70,7 +70,7 @@ figure img{
     justify-content: center;
 }
 
-.section > * > *{
+.section > * > * {
     display: inline;
 }
 
@@ -83,11 +83,6 @@ figure img{
     text-align: right;
     font-weight: 500;
     flex:0 0 300px;
-}
-
-#bio {
-    font-size: 18px;
-    color: var(--bio);
 }
 
 #best-work {
@@ -104,6 +99,11 @@ figure img{
     object-fit: cover;
     border: 4px solid #2c491d;
     margin: 7px;
+}
+
+#bio {
+    font-size: 18px;
+    color: var(--bio);
 }
 
 #contact-me ul *, #contact-me ul{
