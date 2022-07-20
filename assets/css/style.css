@@ -21,6 +21,7 @@ body {
     background-color: var(--backgr);
 }
 
+/* heading specific */
 header nav ul {
     margin-right:20px;
 }
@@ -61,6 +62,7 @@ figure img{
     object-fit: cover;
 }
 
+/* for the sections of the body */
 .section{
     display: inline-flex;
     padding: 10px;
@@ -93,6 +95,7 @@ figure img{
     flex:0 0 300px;
 }
 
+/* for the best piece of work */
 #best-work {
     width: 96%;
     height: 375px;
@@ -101,6 +104,7 @@ figure img{
     margin: 7px;
 }
 
+/* other 4 peices of work */
 .projects {
     width: 47%;
     height: 150px;
@@ -118,10 +122,12 @@ figure img{
     opacity: 1;
 }
 
+/* for the contents of 'Contact Me' */
 #contact-me ul *, #contact-me ul{
     color: rgb(7, 85, 7);
     text-decoration: underline;
     display: inline;
+    padding: 20px;
 }
 
 @media screen and (max-width: 992px) {
