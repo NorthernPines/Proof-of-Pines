@@ -70,6 +70,10 @@ figure img{
     justify-content: center;
 }
 
+.section > * > * {
+    display: inline;
+}
+
 .section h2, #contact-me p{
     border-right: 3px solid;
     color:rgb(7, 85, 7);
@@ -97,6 +101,15 @@ figure img{
     margin: 7px;
 }
 
+/* next 2 to add hover effect for the work */
+.projects, #best-work {
+    opacity: .8;
+}
+
+.projects:hover, #best-work:hover {
+    opacity: 1;
+}
+
 #bio {
     font-size: 18px;
     color: var(--bio);
@@ -106,4 +119,12 @@ figure img{
     color: rgb(7, 85, 7);
     text-decoration: underline;
     display: inline;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+  
+@media screen and (max-width: 768px) {
+
 }
