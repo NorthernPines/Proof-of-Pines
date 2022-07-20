@@ -70,10 +70,6 @@ figure img{
     justify-content: center;
 }
 
-.section > * > * {
-    display: inline;
-}
-
 .section h2, #contact-me p{
     border-right: 3px solid;
     color:rgb(7, 85, 7);
